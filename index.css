@@ -1,0 +1,49 @@
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Arial;
+}
+
+a {
+ text-decoration: none;
+}
+
+p {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+#logo {
+	margin: 25px;
+}
+
+#content-box {
+	background-color: #424242;
+	border-radius: 20px;
+	text-align: center;
+	width: 600px;
+    margin: 10 auto; 
+}
+
+hr {
+    height: 2px;
+    border-width: 0px;
+    color: #00FF15;
+    background-color: #00FF15;
+}
+
+#listing {
+	color: white;
+	text-decoration: none;
+	border-radius: 15px;
+	padding: 4px;
+	padding-left: 15px;
+	padding-right: 15px;
+	Display: inline-block;
+}
+
+#listing:hover {
+	opacity: 0.9; 
+	-webkit-filter: grayscale(25%) sepia(25%);
+}
